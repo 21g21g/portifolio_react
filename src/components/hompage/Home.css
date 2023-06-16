@@ -1,0 +1,78 @@
+.getway-methodes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+.icon{
+color: black;
+margin-left: 0.5rem;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:6rem ;
+    background-color: darkslategray;
+}
+
+.frontend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-all{
+    display: flex;
+    flex-direction: column;
+    
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7rem;
+}
+.skills{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+@media(max-width:346px){
+    .getway-methodes {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            flex-wrap: wrap;
+            margin: 1rem;
+            padding: 1rem;
+    
+        }
+                .words {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    margin-left: 1rem;
+                }
+
+}
+@media(max-width:218px){
+    
+.main-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 30rem;
+        background-color: darkslategray;
+    }
+}

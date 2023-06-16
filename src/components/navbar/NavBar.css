@@ -1,0 +1,46 @@
+.navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: darkslategray;;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+
+}
+.shows{
+     display: none; 
+   color: white;
+}
+@media(max-width:292px){
+    .navbar {
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: darkslategray;
+            ;
+        }
+
+}
+@media(max-width:218px){
+    .shows {
+           display: flex;
+           align-content: end;
+           margin-left: 9rem;
+            color: white;
+        }
+                 .navbar {
+        
+                     display: none;
+                    
+                 }
+        
+
+}
